@@ -1,0 +1,172 @@
+body{
+	font-family:Arial, Helevetica, sans-serif;
+	color:#333;
+    height:100%;
+    margin:0;
+    padding:0;
+    max-height: 100%;
+    width:100%;
+    background-image:radial-gradient(blue,white);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.grid-form{
+    margin-top: 100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:100px;
+    margin-bottom: 100px;
+}
+.img-left{
+    float:left;
+    margin-top:50px;
+   
+   
+    
+}
+
+.img-left img{
+     margin-left: 200px;
+    width:70%;
+    height:80%;
+    
+    
+}
+.form-body{
+   
+    float:right;
+    width:80%;
+    box-sizing:border-box;
+    border:5px solid #fff;
+    border-radius: 10px;
+ 
+}
+
+hr
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    height:3px;
+    background: #fff;
+    position:relative;
+}
+
+h1{
+	font-weight:normal;
+	margin:20px auto;
+	text-align:center;
+    font-family: fantasy;
+   
+}
+
+form{
+	
+	width:500px;
+	margin:20px auto;
+    height:auto;
+}
+
+input{
+	
+	display:block;
+	padding:8px 16px;
+	font-size:1em;
+	margin:10px auto;
+	width:80%;
+    font-family:cursive;
+	box-sizing:border-box;
+	border-radius: 10px;
+	outline:none;
+    border-left:0px;
+    border-right:0px;
+    border-top:0px;
+    border-bottom:5px solid #ccc;
+    background-color: transparent;
+}
+input:hover{
+    border:5px solid #fff;
+}
+
+input[type=submit]{
+    
+    display:inline block;
+    box-shadow:3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    margin-top:20px;
+    border-radius:15px;
+    width:50%;
+    border:1px solid #d6bcd6;
+    cursor:pointer;
+    color:#000;
+    padding:7px 2px;
+    font-size: 20px;
+    font-family:cursive;
+    text-decoration : none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+
+input[type=submit]:hover{
+    background:linear-gradient(to bottom,  5%, #ededed 100%);
+    background-color:#bab1ba;
+}
+input[type=submit]:active{
+    position:relative;
+    top:1px;
+}
+
+::placeholder{
+    color:#000
+}
+
+/*.error{
+    visibility:hidden;
+}
+input.valid{
+	
+	border-color:#36cc36;
+}
+
+
+input.invalid{
+	
+	border-color:orange;
+}
+
+input + p {
+	font-size:0.9em;
+	text-align:center;
+	font-weight:bold;
+	margin:0 10px;
+	color:orange;
+	opacity:0;
+	height:0;
+	
+}
+
+
+input.invalid + p {
+	opacity:1;
+	height:auto;
+	margin-bottom:20px;
+	
+	*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

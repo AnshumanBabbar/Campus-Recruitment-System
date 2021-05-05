@@ -1,0 +1,108 @@
+
+.frm-1{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  width: 90%;
+  text-align: right;
+  padding:20px;
+  float : right;
+}
+
+
+.container-1 {
+    padding: 50px;
+  background-color: white;
+  width:88%;
+  float: right;
+  margin-right: 10px;
+  height: 600px;
+  
+}
+
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 75%;
+  background: #f1f1f1;
+  margin : 10px;
+}
+
+form.search button {
+  float: left;
+  width: 10%;
+  padding: 12px;
+  background: #2196F3;
+  margin-top : 8px;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  margin-right:2px;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+#delete
+{
+	background-color:#0066ff;
+	color:white;
+	padding : 12px;
+	width:10%;
+	 margin-top : 8px;
+	 border: 1px solid grey;
+	 cursor: pointer;
+	 font-size: 17px;
+}
+#delete:hover{
+	background:#1a1aff;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+table, th, td {
+  border: 4px solid #e6f3ff;
+}
+
+table, th, td {
+  border: 2px solid #e6f3ff;
+  border-collapse: collapse;
+}
+
+th, td, table {
+  padding: 15px;
+}
+th, td {
+  text-align: left;
+}
+table {
+  border-spacing: 5px;
+  margin-left: 10px;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+#t01 th {
+  color: white;
+  background-color: #80c1ff;
+}
+
+.edu{
+    padding: 0px;
+    margin-top: 0px;
+}
+

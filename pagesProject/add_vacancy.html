@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Add Vacancy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./add-vacancy.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <div class="sidenav">
+	<h2>CRMS</h2><br/>
+	<br/>
+	<h5>Company Name</h5>
+  <a href="#dashboard">Dashboard</a>
+  <a href="#postvacancy">Post Vacancy</a>
+  
+  <button class="dropdown-btn">Post Vacancy
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Add Vacancy </a>
+    <a href="#">Delete Vacancy </a>
+    
+  </div>
+  
+  <button class="dropdown-btn">Job Applications
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">New Applications </a>
+    <a href="#">Sort Listed Applications </a>
+	 <a href="#">Rejected Applications </a>
+    <a href="#">All Applications </a>
+    
+  </div>
+  
+</div>
+
+
+  <div class="header">
+   <h4>Add Vacancy</h4>
+  <div class="header-right">
+ <div class="dropdown">
+ <button class="dropbtn">Settings
+
+</button>
+  <div class="dropdown-content">
+    <a href="#">Profile</a>&nbsp;&nbsp;&nbsp;
+    <a href="#">Log out</a>
+   
+  </div>
+</div>
+   </div>
+ </div>
+ 
+ 
+ <div  class = "frm">
+ 
+ <form>
+  <div class="container">
+  <center>  <h1> Add Vacancy Form</h1> </center>
+  <hr>
+  <p>Job ID:</p><br>
+  <input type="text" name="jobid" placeholder="jobid" size="19"required /> <br/>
+  <p>Job Title:</p>  <br>
+  <input type="text" name="title" placeholder="title" size="19"required /> 
+  <p>Job Description:</p> <br>
+  <input type="text" name="jobdescription" placeholder= "jobdescription" size="15" required /> 
+  <p>Job Location:</p><br>
+  <input type="text" name="location" placeholder="location" size="15" required /> 
+
+  <p>Salary/Month:</p> <br>
+  <input type="text" name="salary" placeholder= "salary" size="15" required /> 
+<p>Total Vacancy:</p> <br>
+<input type="text" name="vacancy" placeholder="vacancy" size="15" required /> 
+<button type="submit" class="addbtn">Add</button>    
+
+</div>
+     
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="add-vacancy.js"></script>
+</html>

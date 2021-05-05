@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: scroll;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-right: 10px solid #c4eaf2;
+}
+
+    #header {
+        
+        height:150px;
+            width:100%;
+           top: 0;
+         left: 0;
+        overflow-x: hidden;
+        border-bottom: 10px solid #c4eaf2;
+        background-color: #c4eaf2;
+        
+    }
+    
+    #head{
+        margin-top: 80px;
+        margin-left: 255px;
+        font-family: cursive;
+        font-weight: bold;
+        color: #818181;
+    }
+
+.sidenav a {
+  padding: 8px 8px 5px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+    li{
+        list-style: none;
+    }
+
+    .bars{
+        float:left;
+        padding: 20px;
+        font-size: 40px;
+    }
+    
+    span{
+        font-size: 20px;
+        font-family: cursive;
+    }
+    
+    hr{
+        width:80%;
+        height:0px;
+        border:none;
+        border-top: 5px solid #c4eaf2;
+    }
+    
+    .setting{
+        float:right;
+        padding:20px;
+    }
+    
+    .fa{
+        font-size: 40px;
+    }
+    .cmp-Name{
+
+        font-family: cursive;
+        color: #818181;
+    }
+    
+    .icon {
+        font-size: 150px;
+        text-align: center;
+        color:#818181;
+        text-shadow: 4px 6px lightgray;
+        margin-top: 10px;
+    }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
+    
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <div class="icon"><i class ="fa fa-lock"></i></div>
+  
+  <br/>
+  <li class="dropdown"><a href="AdminDashboard.php">
+                <i class="fa fa-home" ></i>&nbsp;&nbsp;<span>
+     
+      Dashboard
+      
+      </span> 
+      </a></li>
+  <hr/>
+  <li class="dropdown"><a href="total-regd-companies.php"><i class="fa fa-building"></i>&nbsp;&nbsp;<span>Regd Company</span> </a>
+          
+      </li>
+     <hr/>
+      <li class="dropdown"><a href="total-regd-users.php"><i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;<span>Regd Users</span></a>
+          
+      </li>
+    
+</div>
+<div id = "header">
+    <span class="bars" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <span class="setting">
+    <a href="logout.php"><i class="fa fa-sign-out"></i></span></a></span>
+    <h3 id="head"><i><?php echo   $pageHeading ?></i></h3>
+   
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("header").style.marginLeft="250px";
+  document.getElementById("header").style.marginLeft="0px";
+  
+  
+}
+
+
+</script>
+   
+</body>
+</html> 

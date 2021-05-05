@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background:#c4eaf2;
+    text-align: center;
+    border-bottom: 2px solid #000;
+   
+}
+
+
+
+
+
+.line {
+    
+    border-top: 5px solid #000;
+}
+
+.menu-bar ul{
+    
+    display: inline-flex; 
+    list-style: none;
+    color:#99ccff;
+   
+   
+}
+
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    align-content: right;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family:inherit;
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 3px 3px #cccccc;
+}
+
+.active,.menu-bar ul li:hover{
+    background:#fff;
+    border-radius: 3px;
+} 
+
+.sub-menu-1{
+    display: none;
+    
+    
+    
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    
+    position: absolute;
+    background:#c4eaf2;
+    margin-top: 15px;
+    margin-left: -15px;
+    border: 1px solid #000;
+    
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #000;
+    border-radius: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #0066ff;
+}
+
+.title h1{
+    padding:10px;
+    margin-top:30px;
+    font-family:cursive;
+    
+}
+
+.vacancy{
+    padding:10px;
+    display: inline-block;
+    margin-top:30px;
+    margin-left: 120px;
+    width:500px;
+    height:200px;
+    border: 4px dotted gray;
+    box-shadow: 5px 10px lightgray;
+    background-color:#c4eaf2;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+
+
+
+.title{
+    padding: 10px;
+    
+    margin-left:20px;
+    
+}
+
+.cmp{
+    margin-top:5px;
+   
+}
+
+.list-item li{
+    margin-top:30px;
+    display: inline-block;
+    padding-left:20px;
+    margin-left: 30px;
+}
+
+.foot{
+    padding: 10px;
+    margin-top: 30px;
+    width:100%;
+    height:420px;
+    background-color: gray;
+        
+}
+
+.foot .foot-img{
+    float: right;
+    width:30%;
+    margin-top:30px;
+    margin-right:20px;
+    border-radius: 10px;
+   position: relative;
+    box-shadow: 5px 7px aliceblue;
+    border: 3px solid #000;
+    height: 180px;
+}
+.foot .foot-img:hover{
+    opacity: 0.7;
+}
+
+.foot .newsletter{
+   float:left;
+    width:50%;
+    margin-top:30px;
+    margin-left: 20px;
+}
+
+.foot .newsletter .txt{
+    width:400px;
+    height:50px;
+    font-size:15px;
+    font-family: cursive;
+    border: 2px solid #000;
+    padding: 10px;
+    
+}
+
+.foot .newsletter .txt:focus-within{
+    background-color: #c4eaf2;
+}
+
+.foot .newsletter .btn{
+    width:200px;
+    height:40px;
+    font-size:15px;
+    font-family: cursive;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 3px 3px lightgray;
+   
+    
+}
+
+.foot .newsletter .btn:hover{
+    border:3px solid #fff;
+}
+
+.foot .contact{
+    margin-top: 266px;
+    text-align: center;
+    font-size:50px;
+    color:azure;
+    
+}
+
+.foot .contact .fa:hover{
+    opacity: 0.10;
+    
+}
+
+.foot .copyright{
+    font-weight: bold;
+    font-family: cursive;
+    font-size:20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+

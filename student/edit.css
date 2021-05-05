@@ -1,0 +1,55 @@
+label{
+    padding:10px;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.frm-1{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  width: 90%;
+  text-align: right;
+  padding:20px;
+      float:right;
+  
+}
+.frm-2
+{
+	  font-family: Calibri, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  width: 90%;
+  text-align: right;
+  padding:20px;
+      float:right;
+      height:80%;
+  
+}
+
+
+.container-1 {
+    padding: 50px;
+  background-color: white;
+  width:88%;
+  float:right;
+  margin-right: 10px;
+  height: 600px;
+  
+}
+.container-2{
+	  padding: 50px;
+  background-color: white;
+  width:88%;
+  float:right;
+  margin-right: 10px;
+  height: 600px;
+  height:80%;
+}
+
+button{
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+    width:200px;
+    font-size: 30px;
+}
+
